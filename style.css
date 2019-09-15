@@ -1,0 +1,175 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: radial-gradient(green,darkgreen,black);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.heading{
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial;
+    color: darkgoldenrod;
+    
+}
+.dice{
+    height: 10%;
+    width: 10%;
+    position: relative;
+    left: 46%;
+}
+span.Player-Box{
+    display: inline-block;
+    height: 300px;
+    width:  200px;
+    box-sizing: border-box;
+    background-image: linear-gradient(-60deg,black,red);
+    font-weight: bold;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    left: 30%;
+  }
+  
+  .Player-Box h1{
+      font-weight: bold;
+      color: yellow;
+      font-family: Georgia;
+      font-size: 25px;
+ }
+ .Player-Box p1{
+     font-size: 20px;
+     font-family: Times;
+     color: white;
+ }
+ .Player-Box p2{
+     font-size: 20px;
+     color: white;
+ }
+ .Player-Box p3{
+     font-size: 20px;
+     color: white;
+     font-family: Times;
+ }
+ .Player-Box p4{
+
+    font-size: 20px;
+    color: white;
+ }
+.Player-Box button{      
+  background-color: darkorange;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+}
+.btna:hover{
+  background-color: yellow;
+  color: black;
+}
+    .vs{
+        display: inline-block;
+        width:5%;
+        height: 5%;
+        position: relative;
+        left: 34%;
+        text-align: center;
+        vertical-align: 400%;
+    }
+ span.Player1-Box{
+    display: inline-block;
+    height: 300px;
+    width:  200px;
+    box-sizing: border-box;
+    background-image: linear-gradient(-60deg,black,red);
+    font-weight: bold;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    left: 37%;
+    }
+  .Player1-Box h1{
+    font-weight: bold;
+    color: yellow;
+    font-family: Georgia;
+    font-size: 25px;
+ }
+ .Player1-Box p1{
+    font-size: 20px;
+    font-family: Times;
+    color: white;
+}
+.Player1-Box p2{
+    font-size: 20px;
+    color: white;
+}
+.Player1-Box p3{
+    font-size: 20px;
+    color: white;
+    font-family: Times;
+}
+.Player1-Box p4{
+
+   font-size: 20px;
+   color: white;
+}
+.Player1-Box button{
+  background-color: darkorange;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+}
+.btnb:hover{
+  background-color: yellow;
+  color: black;
+}
+.btn1{
+    margin: 20px;
+    background-color: darkgreen;
+    border:2px solid white;
+    border-radius: 25px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    left: 41.5%;
+}
+.btn1:hover{
+    background-color: blue;
+}
+.btn2{
+    background-color: darkblue;
+    border:2px solid white;
+    border-radius: 25px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    left: 40.5%;
+}
+.btn2:hover{
+    background-color: blueviolet;
+}
